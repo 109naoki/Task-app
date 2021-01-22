@@ -1,0 +1,2 @@
+# 日本語のテンプレートをDL
+$ wget https://raw.github.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml -P config/locales/
