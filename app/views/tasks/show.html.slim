@@ -19,3 +19,5 @@ h1 タスクの詳細
       tr
         th= Task.human_attribute_name(:updated_at)
         th= @task.updated_at
+
+= link_to '編集',edit_task_path, class: 'btn btn-primary mr-3'
