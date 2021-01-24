@@ -8,6 +8,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
 gem 'slim-rails'
 gem 'html2slim'
 gem 'bootstrap'
+gem 'bcrypt','~> 3.1.7'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
