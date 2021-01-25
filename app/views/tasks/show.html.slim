@@ -11,7 +11,7 @@ h1 タスクの詳細
         th= @task.name
       tr
         th= Task.human_attribute_name(:description)
-        th= simple_format(h(@task.description),{},sanitize: false, wrapper_tag: "div")
+        td= auto_link(simple_format(h(@task.description),{},sanitize: false, wrapper_tag: "div"))
       tr
         th= Task.human_attribute_name(:created_at)
         th= @task.created_at
